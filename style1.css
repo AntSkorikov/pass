@@ -1,0 +1,70 @@
+body{width: 100%;
+	height: 100%;
+	background-image: url(images/processor.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@font-face{
+	font-family: "BebasNeue";
+	src:url(fonts/BebasNeue-Regular.ttf);
+}
+#Pass{
+	width: 500px;
+	height: 300px;
+	position: relative;
+	margin:15% auto;
+	border: 5px solid #1ECD97;
+	border-radius: 7px; 
+	background-color: #fff;
+	opacity: 0.9;
+	-webkit-box-shadow: 1px 2px 18px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 18px 7px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 18px 7px rgba(0,0,0,0.75);
+}
+p{
+	margin-left: 160px;
+	display:block;
+	font:1.5em "BebasNeue";
+	text-shadow: 3px 0px 2px rgba(102, 185, 150, 0.83);
+}
+span{
+	display: none;
+	position: absolute;
+	top:73px;
+	left:99px;
+	width: 303px;
+	height: 46px;
+	text-align: center;
+	background-color: #1ECD97;
+	border-radius: 5px;
+	font: 1.3em/2.1em "BebasNeue";
+	letter-spacing: 5px;
+	transition: 0.3s;
+}
+#CheckPass{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #1ECD97;
+	background-color: #DCDCDC;
+	font:1.3em "BebasNeue";
+	transition: 0.3s;
+}
+#Submit{
+	display: block;
+	width: 200px;
+	height: 40px;
+	margin: 50px auto;
+	font: 1.1em "BebasNeue";
+	letter-spacing: 3px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	background-color: #1ECD97;
+	-webkit-box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.75);
+}
