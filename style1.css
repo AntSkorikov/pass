@@ -1,4 +1,6 @@
 body{
+	margin: 0;
+	padding: 0;
 	width: 100%;
 	height: 100%;
 	background-image: url(images/processor.jpg);
@@ -13,8 +15,7 @@ body{
 	width: 500px;
 	height: 300px;
 	position: relative;
-	top: 160px;
-	left:400px;
+	margin:15% auto;
 	border: 5px solid #1ECD97;
 	border-radius: 7px; 
 	background-color: #fff;
@@ -29,21 +30,30 @@ p{
 	font:1.5em "BebasNeue";
 	text-shadow: 3px 0px 2px rgba(102, 185, 150, 0.83);
 }
-span{
+#WrongPass{
 	display: none;
+}
+.OkPass{/*display:block при правильно введенном пароле*/ 
+	display: none;
+	font: 1.3em/2.1em "BebasNeue";
+	letter-spacing: 5px;
+	transition: 0.3s;
+	background-color: #1ECD97;
+	text-align: center;
+}
+.WrongPass{/*display:block при неправильно введенном пароле*/
+	display: none;
+	background-color: red;
+}
+.OkPass, .WrongPass{
 	position: absolute;
 	top:73px;
 	left:99px;
 	width: 303px;
 	height: 46px;
-	text-align: center;
-	background-color: #1ECD97;
 	border-radius: 5px;
-	font: 1.3em/2.1em "BebasNeue";
-	letter-spacing: 5px;
-	transition: 0.3s;
 }
-#CheckPass{
+#CheckPass{/*display:none на время выполнения анимации при неправильно введенном пароле*/
 	display: block;
 	margin: 0 auto;
 	width: 300px;
@@ -57,9 +67,11 @@ span{
 }
 #Submit{
 	display: block;
+	position: absolute;
 	width: 200px;
 	height: 40px;
-	margin: 50px auto;
+	top:188px;
+	left: 150px;
 	font: 1.1em "BebasNeue";
 	letter-spacing: 3px;
 	border: none;

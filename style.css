@@ -1,14 +1,19 @@
-#Pass{
-	animation: box 1s; 
+.WrongPass{
+	animation: shake 0.3s; 
 	position: relative;
-}
-@keyframes box{
-	 0% {left:400px;}
-    10%{left: 500px;}
-    30%{left: 300px;}
-    50%{left: 500px;}
-    70%{left: 300px;}
-    90%{left: 500px;}
-    100%{left: 400px;}
 
+
+}
+@keyframes shake{
+	0% {left:40px;}
+	10%{left:145px;}
+	20%{left:40px;}
+	30%{left:145px;}
+	40%{left:40px;}
+	50%{left:145px;}
+	60%{left:40px;}
+	70%{left:145px;}
+	80%{left:40px;}
+	90%{left:145px;}
+	100%{left:40px;}
 }
