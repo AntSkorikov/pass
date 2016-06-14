@@ -1,0 +1,14 @@
+#Pass{
+	animation: box 1s; 
+	position: relative;
+}
+@keyframes box{
+	 0% {left:400px;}
+    10%{left: 500px;}
+    30%{left: 300px;}
+    50%{left: 500px;}
+    70%{left: 300px;}
+    90%{left: 500px;}
+    100%{left: 400px;}
+
+}

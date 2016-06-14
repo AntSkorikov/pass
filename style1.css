@@ -13,7 +13,8 @@ body{
 	width: 500px;
 	height: 300px;
 	position: relative;
-	margin:15% auto;
+	top: 160px;
+	left:400px;
 	border: 5px solid #1ECD97;
 	border-radius: 7px; 
 	background-color: #fff;
