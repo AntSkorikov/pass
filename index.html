@@ -7,11 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 <body>
-<form action="" method="post" onsubmit="" id="Pass">
+<form action="" method="post" onsubmit="checkPassword(event);" id="Pass">
 <p>Enter your password</p>
-<span class="WrongPass"></span>
-<span class="OkPass">done</span>
-	<input type="password" id="CheckPass">
+<span id="WrongPass"></span>
+<span id="OkPass">done</span>
+	<input name="password" type="password" id="CheckPass">
 	<input type="submit" value="Send" id="Submit">
 
 </form>

@@ -1,9 +1,8 @@
-.WrongPass{
-	animation: shake 0.3s; 
+#WrongPass{
+	animation: shake 1s; 
 	position: relative;
-
-
 }
+
 @keyframes shake{
 	0% {left:40px;}
 	10%{left:145px;}
